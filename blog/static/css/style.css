@@ -1,0 +1,231 @@
+.row  {
+    background-color: #ff4c68 ;
+    color: aliceblue;
+}
+#title  {
+    background-color:#ff4c68 ;
+}
+
+#title .navbar-brand{
+    font-family: "Ubuntu" sans-serif;
+    color: aliceblue;
+    font-size: 2.5rem;
+    padding: 2% 10%;
+    font-weight: 600;
+
+}
+
+.navbar-link{
+color:aliceblue;
+}
+
+#title .nav-item{
+    color: #fff;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.navbar{
+    padding: 3% 13%;
+}
+
+.title-text{
+    padding: 3% 15%;
+    font-family: "Montserrat" sans-serif;
+}
+#title h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.title-button{
+ 
+margin-top: 3%;
+margin-left: 6%;
+margin-right: 6%;
+
+}
+
+.title-img{
+    transform: rotate(25deg);
+    transition: 1s;
+    margin-top: 5cm;
+
+}
+
+
+.title-img:hover {
+    transform: rotate(0deg);
+}
+
+
+
+#title item{
+    background-color: #fff;
+}
+
+.title-item{
+    background-color: #ffffff;
+    size: 10;
+    color: black;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+
+}
+
+
+
+.fa, .fas {
+    font-weight: 900;
+    color: #ef8172;
+    font-size:  50px;
+    margin-left: 2rem ;
+    
+}
+
+.h2, h2 {
+    font-size: 2rem;
+    
+    text-align: center;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-left: 3rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(19, 19, 19);
+    text-align: center;
+    size: 5px;
+}
+
+h3 {
+    margin-left: 1cm;
+}
+
+.title-jam{
+    background-color: #ef8172;
+
+}
+
+.title-press{
+    background-color: #ef8172;
+    margin-bottom: 5cm;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+
+.title-plan{
+    padding: 3rem;
+    text-align: center;
+    
+    
+
+}
+
+.title-pricing{
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 2% 10%;
+
+}
+
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+    margin-top: 5cm;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: #ef8172;
+}
+  
+  h3{
+      color: black;
+  }
+
+  item.active {
+    display: block;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+    margin-left: 13cm;
+}
+
+.title-cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px 15% 40px;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+#footer{
+    padding: 6%;
+    text-align: center;
+}
